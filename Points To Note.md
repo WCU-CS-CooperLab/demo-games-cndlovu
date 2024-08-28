@@ -1,4 +1,4 @@
-#Day 2 powerpoint [here](ClassNotes/)
+#Day 2 CSC476 8/28/24 [here](ClassNotes/02-Godot-jumping-in.pdf)
 1. Designer Creates Experience
 
 	•	Focus on how game design impacts user experience.
