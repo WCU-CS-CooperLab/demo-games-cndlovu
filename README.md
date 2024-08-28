@@ -1,4 +1,5 @@
 # GamePublish
-A template repository to publish games
+Hello world lets play a game 
 
-hello world lets play a game 
+Coin Dash Game 
+Check out my progress heer [here](player_scene/)
