@@ -2,4 +2,4 @@
 Hello world lets play a game 
 
 Coin Dash Game 
-Check out my progress heer [here](player_scene/)
+Check out my progress [here](player_scene/coi-serviceworker.js)
