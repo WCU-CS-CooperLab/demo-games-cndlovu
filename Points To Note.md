@@ -1,4 +1,5 @@
-#Day 2 CSC476 8/28/24 [here](ClassNotes/)
+#Day 2 CSC476 8/28/24 [Click for pdf ](ClassNotes/) Summary Below
+
 1. Designer Creates Experience
 
 	•	Focus on how game design impacts user experience.
