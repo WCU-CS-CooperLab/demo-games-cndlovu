@@ -5,5 +5,5 @@ Hello world watch my progess in developing games
 First Day showing a character[here](player_scene/) 
 
 
-Second Day moving a character in space [here](player_scene updateb/)
+Second Day moving a character in space [here](player_sceneb/)
 
