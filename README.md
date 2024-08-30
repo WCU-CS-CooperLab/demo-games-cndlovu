@@ -2,7 +2,7 @@
 Hello world watch my progess in developing games
 
 # Coin Dash
-First Day showing a character[here](player_scene/) 
+First Day showing a character [here](player_scene/) 
 
 
 Second Day moving a character in space (try moving the character with your arrow keys) [here](player_sceneb/)
