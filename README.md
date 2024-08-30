@@ -1,5 +1,7 @@
 # GamePublish
-Hello world lets play a game 
+Hello world watch my progess in developing games
 
 # Coin Dash
-Check out my progress [here](player_scene/)
+First Day showing a character[here](player_scene/)
+Second Day moving a character in space [here](player_scene update/)
+
