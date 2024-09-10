@@ -12,6 +12,8 @@ Third Day adding coins and background to the game [here](player_scenec/)
 
 Fourth Day adding a HUD for the game check it out [here](player_scened/)
 
+Final phase of the game(will be updated until final form) keep coming back to check the current [version](player_scenee/)
+
 # Space Rocks
 Adding a space ship and being able to rotate it. Check it out [here](space_rocks/)
 
