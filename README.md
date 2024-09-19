@@ -1,5 +1,5 @@
 # GamePublish
-Hello world watch my progess in developing games
+Hello world watch my progress in developing games
 
 # Coin Dash
 First Day showing a character [here](coindash/player_scene/) 
@@ -17,10 +17,6 @@ Final phase of the game(will be updated until final form) keep coming back to ch
 # Space Rocks
 Adding a space ship and being able to rotate it. Check it out [here](spacerocks/space_rocks/)
 
-<<<<<<< Updated upstream
-Updated version [check it out](spacerocks_a/)
-
-Now we have some rocks and [animation](spacerocks2)
-=======
 Updated version [check it out](spacerocks/spacerocks_a/)
->>>>>>> Stashed changes
+
+Now we have some rocks and [animation](spacerocks/spacerocks2)
