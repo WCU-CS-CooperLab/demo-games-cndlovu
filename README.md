@@ -23,4 +23,4 @@ Now we have some rocks try shooting them to see a big [animation](spacerocks/spa
 
 Check out the HUD and waves which increase the amount of rocks in the [enviroment](spacerocks/spacerocks3)
 
-Game now has enemies firing at [you](spacerocks/spacerocks4)
+Game now has enemies firing at [you](spacerocks/spacerocks4a)
