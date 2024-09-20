@@ -20,3 +20,5 @@ Adding a space ship and being able to rotate it. Check it out [here](spacerocks/
 Updated version [check it out](spacerocks/spacerocks_a/)
 
 Now we have some rocks and [animation](spacerocks/spacerocks2)
+
+Check out the HUD and waves which increase the amount of rocks in the [enviroment](spacerocks/spacerocks3)
