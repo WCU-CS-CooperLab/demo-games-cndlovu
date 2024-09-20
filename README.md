@@ -17,6 +17,6 @@ Final phase of the game(will be updated until final form) keep coming back to ch
 # Space Rocks
 Adding a space ship and being able to rotate it. Check it out [here](spacerocks/space_rocks/)
 
-Updated version [check it out](spacerocks/spacerocks_a/)
+Updated version you can move around the space [check it out](spacerocks/spacerocks_a/)
 
 Now we have some rocks and [animation](spacerocks/spacerocks2)
