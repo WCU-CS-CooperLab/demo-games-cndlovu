@@ -19,4 +19,4 @@ Adding a space ship and being able to rotate it. Check it out [here](spacerocks/
 
 Updated version you can move around the space [check it out](spacerocks/spacerocks_a/)
 
-Now we have some rocks and [animation](spacerocks/spacerocks2)
+Now we have some rocks try shooting them to see a big [animation](spacerocks/spacerocks2)
