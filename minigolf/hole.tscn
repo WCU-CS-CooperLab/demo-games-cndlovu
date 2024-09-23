@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cgmnkewgm0dwe"]
+
+[ext_resource type="MeshLibrary" uid="uid://g7rie4nh5rkf" path="res://assets/golf_tiles.tres" id="1_ca35r"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2cvsi"]
+rough = true
+bounce = 0.5
+
+[node name="Hole" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_ca35r")
+physics_material = SubResource("PhysicsMaterial_2cvsi")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(0, 0, 9, 0, 1, 13, 0, 2, 13, 0, 65535, 13)
+}
