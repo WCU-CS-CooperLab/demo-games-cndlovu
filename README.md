@@ -35,4 +35,4 @@ Final phase of the game(will be updated until final form) keep coming back to ch
 
 # 3D Mini Golf ⛳️
 
-Camera view of the [Game]()
+Camera view of the [Game](3dminigolf/holemain)
