@@ -39,4 +39,4 @@ Camera view of the [Game](3dminigolf/holemain)
 
 # Jungle Jump 🌳
 
-Here is the jungle jump start of the [game](junglejump/junglejump_1)
+Here is the jungle jump start of the [game](junglejump/junglejump_1) also main scene is [here](junglejump/jjmainscene)
