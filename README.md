@@ -51,5 +51,5 @@ Here is the progress of the [game](flyer/flyer2)
 
 # Treasure Parkour💎
 
-Here is the final [game](treasureparkour)
+Here is the final see if you get to the Boss Level (Level 4 ). If you're having a hard time press H to skip [🏃‍♂️](treasureparkour)
 
