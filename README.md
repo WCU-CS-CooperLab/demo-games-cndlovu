@@ -6,7 +6,7 @@ Hello world watch my progress in developing games
 Space Rocks with Portals [▶️](spacerocks/spacerocksproject) 
 
 # Project 2
-Scare Dash with Zombies [🧟‍♂️](coindash/scare-dash) 
+Scare Dash with Zombies [🧟‍♂️ ▶️](coindash/scare-dash) 
 
 # Coin Dash 🏃‍♂️💨
 First Day showing a character [here](coindash/player_scene/) 
