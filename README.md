@@ -59,7 +59,7 @@ Here is the start of the [game](flyer/flyer1)
 
 Here is the progress of the [game](flyer/flyer2)
 
-Now there is more movements and chunks in the [game](flyer/flyer3)
+Now there is more movements and chunks in the [game](flyer/flyer3) don't run out of fuel.
 
 
 # Treasure Parkour💎
