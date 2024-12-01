@@ -39,7 +39,7 @@ Final phase of the game(will be updated until final form) keep coming back to ch
 
 Camera view of the [Game](3dminigolf/holemain)
 
-Try playing the scripted game inside of Hole [scene](3dminigolf/3dminigolf_2)
+Try playing 🏌️‍♂️ the scripted game inside of Hole  [scene](3dminigolf/3dminigolf_2)
 
 # Jungle Jump 🌳
 
