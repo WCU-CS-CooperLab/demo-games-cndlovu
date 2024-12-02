@@ -70,4 +70,4 @@ Here is the final see if you get to the Boss Level (Level 4 ). If you're having 
 
 # Multiplayer Progress
 
-Setting up the server [check it out]()
+Setting up the server [check it out](multiplayer/server-setup)
