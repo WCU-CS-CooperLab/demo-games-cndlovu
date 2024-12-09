@@ -11,7 +11,7 @@ Scare Dash with Zombies [🧟‍♂️ ▶️](coindash/scare-dash)
 # Project 3
 Flyer Survival Duel [✈️▶️](flyer/FlyerSurvival)
 
-**Unfortunately, the game is not fully supported by the browser. I recommend downloading the game and running it on your computer, as the browser cannot properly render the jet fighter plane or provide a smooth experience. [HERE](flyer/FlyerSurvivalDuel)**
+**Unfortunately, the game is not fully supported by the browser and GITHUB push is more 100mb. I recommend downloading the game and running it on your computer, as the browser cannot properly render the jet fighter plane or provide a smooth experience. [HERE](flyer/FlyerSurvivalDuel)**
 
 # Coin Dash 🏃‍♂️💨
 First Day showing a character [here](coindash/player_scene/) 
