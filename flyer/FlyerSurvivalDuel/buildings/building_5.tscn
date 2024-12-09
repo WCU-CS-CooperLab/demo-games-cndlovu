@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://dixyg5xj6s54t"]
+
+[ext_resource type="ArrayMesh" uid="uid://ipf8df01eblx" path="res://assets/building_meshes/AlienPlanet.obj" id="1_mjmlr"]
+[ext_resource type="Texture2D" uid="uid://e2ypwveghy3a" path="res://assets/building_meshes/planet_Bog1200.png" id="2_43yfw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ik7bn"]
+albedo_texture = ExtResource("2_43yfw")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_wew8o"]
+radius = 8.38277
+
+[node name="Building5" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 11, -4)
+mesh = ExtResource("1_mjmlr")
+surface_material_override/0 = SubResource("StandardMaterial3D_ik7bn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.8465, -4)
+shape = SubResource("SphereShape3D_wew8o")

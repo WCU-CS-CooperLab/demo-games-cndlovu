@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck5en5dov8g63"]
+
+[ext_resource type="ArrayMesh" uid="uid://dppdvp1mx3dww" path="res://assets/Asteroid_2a.obj" id="1_c0231"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r4amm"]
+albedo_color = Color(0.454902, 0.454902, 0.454902, 1)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_y4bqa"]
+radius = 3.68272
+height = 12.4997
+
+[node name="Building1" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.622943, 2.44084e-07, 4.96104, 4.96104, -1.89624e-07, 0.622943, 2.18557e-07, 5, -2.18557e-07, 0, 5.937, -11.9148)
+mesh = ExtResource("1_c0231")
+surface_material_override/0 = SubResource("StandardMaterial3D_r4amm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.0341421, -0.297801, 0.954017, 0.106949, 0.950181, 0.292776, -0.993678, 0.0920355, 0.0642908, 0.493526, 6.754, 0.7052)
+shape = SubResource("CapsuleShape3D_y4bqa")
