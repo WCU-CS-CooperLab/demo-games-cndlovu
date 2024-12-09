@@ -71,9 +71,13 @@ Now there is more movements and chunks in the [game](flyer/flyer3) don't run out
 Here is the final [game](flyer/flyerFinale)
 
 
-# Treasure Parkour💎
+# Team Project 1: Treasure Parkour💎
 
 Here is the final see if you get to the Boss Level (Level 4 ). If you're having a hard time press H to skip [🏃‍♂️](treasureparkour)
+
+# Team Project 2: Fruitocalypse 🍎
+
+Here is the final game. See if you can beat your friends in it 
 
 # Multiplayer Progress
 
