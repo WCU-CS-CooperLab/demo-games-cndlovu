@@ -13,7 +13,7 @@ Flyer Survival Duel [✈️▶️](flyer/FlyerSurvival)
 
 **Unfortunately, the game is not fully supported by the browser and GITHUB push is more 100mb. I recommend downloading the game and running it on your computer, as the browser cannot properly render the jet fighter plane or provide a smooth experience. [HERE](flyer/FlyerSurvivalDuel)**
 
-#  Project 4 
+#  Project 4 🔫
 Perry Survival Game: Multiplayer game using a server in which an enemy chases you. **Here are the Executable Games Server will be online till 12/20/24**
 
 [Windows](PerrySurvival/Windows.zip)  **   **        [MACOS](PerrySurvival/PerrySurvival/macos.zip)
