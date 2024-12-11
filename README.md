@@ -82,7 +82,8 @@ Here is the final see if you get to the Boss Level (Level 4 ). If you're having 
 
 # Team Project 2: Fruitocalypse 🍎
 
-Here is the final game. See if you can beat your friends in it 
+Here is the final game. See if you can beat your friends in it.
+[MACOS]()       [Windows]()
 
 # Multiplayer Progress
 
