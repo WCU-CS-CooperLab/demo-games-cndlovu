@@ -1,0 +1,84 @@
+[gd_scene load_steps=13 format=3 uid="uid://ddm13jt6mhynw"]
+
+[ext_resource type="Script" path="res://plane2.gd" id="1_3yqj7"]
+[ext_resource type="PackedScene" uid="uid://cc4rji1v6mrkq" path="res://assets/uploads-files-5397315-RQ-180.glb" id="2_ci1hm"]
+[ext_resource type="Texture2D" uid="uid://bbj826dqr35cm" path="res://assets/smoke/smoke_01.png" id="3_h5fy2"]
+[ext_resource type="Texture2D" uid="uid://c5kcwulpwu3fq" path="res://assets/smoke/smoke_02.png" id="4_2ooeh"]
+[ext_resource type="Texture2D" uid="uid://diawlbximtwne" path="res://assets/smoke/smoke_03.png" id="5_dupgi"]
+[ext_resource type="Texture2D" uid="uid://cu8ryoqqsp1db" path="res://assets/smoke/smoke_04.png" id="6_nb6h0"]
+[ext_resource type="Texture2D" uid="uid://i7tswarwj68q" path="res://assets/smoke/smoke_05.png" id="7_krq3x"]
+[ext_resource type="AudioStream" uid="uid://bm8r3u7x16owq" path="res://assets/audio/plane-78723.mp3" id="8_pf3we"]
+[ext_resource type="AudioStream" uid="uid://dlp7tjxsbm88j" path="res://assets/audio/impact.wav" id="9_4luim"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_6uctg"]
+height = 7.89985
+radius = 0.919679
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jt15r"]
+size = Vector3(9.79327, 0.29895, 1)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_af868"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_h5fy2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2ooeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dupgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nb6h0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_krq3x")
+}],
+"loop": false,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Plane2" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.27453, 0)
+collision_layer = 2
+script = ExtResource("1_3yqj7")
+
+[node name="jet" parent="." instance=ExtResource("2_ci1hm")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="Ground_Plane_mirror" parent="jet" index="0"]
+transform = Transform3D(81.2594, 0, 0, 0, 81.2594, 0, 0, 0, 81.2594, 12.9653, 0, 180.364)
+visible = false
+
+[node name="RQ-180_1_master" parent="jet" index="1"]
+transform = Transform3D(9.25682, 0, 0, 0, 1.49159, 0, 0, 0, 20.1013, -1.3688, 2.96638, 154.906)
+visible = false
+
+[node name="RQ-180_2_master" parent="jet" index="2"]
+transform = Transform3D(-1.74846e-07, 0, 8.677, 0, 0.642, 0, -4, 0, -3.79284e-07, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.00251436, -0.362862, 0)
+shape = SubResource("CylinderShape3D_6uctg")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125707, -0.0697155, 0.967651)
+shape = SubResource("BoxShape3D_jt15r")
+
+[node name="Explosion" type="AnimatedSprite3D" parent="."]
+visible = false
+pixel_size = 0.5
+billboard = 1
+sprite_frames = SubResource("SpriteFrames_af868")
+
+[node name="PlaneSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_pf3we")
+autoplay = true
+parameters/looping = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_4luim")
+
+[editable path="jet"]
