@@ -16,7 +16,7 @@ Flyer Survival Duel [✈️▶️](flyer/FlyerSurvival)
 #  Project 4 🔫
 Perry Survival Game: Multiplayer game using a server in which an enemy chases you. **Here are the Executable Games Server will be online till 12/20/24**
 
-[Windows](PerrySurvival/Windows.zip)  **   **        [MACOS](PerrySurvival/PerrySurvival/macos.zip)
+[Windows](PerrySurvival/Windows.zip)  **   **        [MACOS](PerrySurvival/macos.zip)
 
 # Coin Dash 🏃‍♂️💨
 First Day showing a character [here](coindash/player_scene/) 
